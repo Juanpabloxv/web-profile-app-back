@@ -31,7 +31,7 @@ public class PersonService {
     public PersonModel update(Integer id, PersonModel form) {
         PersonModel personFormDb = findById(id);
 
-        personFormDb.setFirsName(form.getFirsName());
+        personFormDb.setFirstName(form.getFirstName());
         personFormDb.setLastName(form.getLastName());
         personFormDb.setEmail(form.getEmail());
         personFormDb.setNumeroTelefono(form.getNumeroTelefono());

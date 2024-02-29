@@ -21,7 +21,7 @@ public class PersonModel {
     private Integer id;
 
     @NonNull
-    private String firsName;
+    private String firstName;
 
     @NonNull
     private String lastName;
