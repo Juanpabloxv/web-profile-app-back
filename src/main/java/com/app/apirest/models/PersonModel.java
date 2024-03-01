@@ -1,3 +1,7 @@
+/*
+ * Esta clase representa la entidad de base de datos para la tabla "person".
+ * Contiene información sobre una persona y su correspondencia en la base de datos.
+ */
 package com.app.apirest.models;
 
 import io.micrometer.common.lang.NonNull;
@@ -10,6 +14,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ * La anotación @Data de Lombok genera automáticamente getters, setters, toString(), equals() y hashCode() para la clase.
+ * Las anotaciones @AllArgsConstructor y @NoArgsConstructor de Lombok generan automáticamente constructores con todos los campos y sin argumentos, respectivamente.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
